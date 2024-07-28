@@ -18,7 +18,7 @@ export function Details() {
         </Links>
       </Section>
       <Section title="Marcadores">
-        <Tag title="Reacj Js"/>
+        <Tag title="ReactJS"/>
         <Tag title="Express"/>
         <Tag title="Node"/>
       </Section>
