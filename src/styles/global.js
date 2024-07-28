@@ -13,15 +13,20 @@ body{
     color:${({theme})=>theme.COLORS.WHITE};
     -webkit-font-smooth: antialiased;
 }
-body, input, button, testArea{
+body, input, button,a, textArea{
     font-family: 'Roboto Slab', serif;
     outline: none;
 
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color:green;
+    
 
-
-
-
+};
 
 
 `

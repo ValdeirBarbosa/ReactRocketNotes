@@ -19,10 +19,11 @@ align-items: center;
 
 
 >img{
-    width:56px;
-    height: 56px;
+    width:90px;
+    height: 90px;
     border-radius: 50%;
-    border: 2px solid ${({theme})=>theme.COLORS.ORANGE};
+    border: 1px solid ${({theme})=>theme.COLORS.ORANGE};
+    padding:2px;
     transition: 2s
 
 
