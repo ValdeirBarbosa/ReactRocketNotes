@@ -1,4 +1,4 @@
-import { Container, Links } from "./styles";
+import { Container, Links, Content} from "./styles";
 import { Header } from "../../componets/Header";
 
 import { Button } from "../../componets/Button";
@@ -10,19 +10,29 @@ export function Details() {
   return (
     <Container>
       <Header />
-      <ButtonText title="Excluir nota"/>
-      <Section title="Links úteis">
-        <Links>
-            <li><a href="#">https://www.rocketseat.com.br</a></li>
-            <li><a href="#">https://www.rocketseat.com.br</a></li>  
-        </Links>
-      </Section>
-      <Section title="Marcadores">
-        <Tag title="ReactJS"/>
-        <Tag title="Express"/>
-        <Tag title="Node"/>
-      </Section>
-      <Button title="Voltar" />
+      <main>
+        <Content>
+          <ButtonText title="Excluir nota" />
+          <h1>Introcução ao ReactJS</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat nesciunt ea cupiditate architecto repellat nostrum cum cumque dignissimos! Ullam cupiditate molestias reiciendis repellat fuga esse numquam deleniti, impedit iste illo.</p>
+          <Section title="Links úteis">
+            <Links>
+              <li>
+                <a href="#">https://www.rocketseat.com.br</a>
+              </li>
+              <li>
+                <a href="#">https://www.rocketseat.com.br</a>
+              </li>
+            </Links>
+          </Section>
+          <Section title="Marcadores">
+            <Tag title="ReactJS" />
+            <Tag title="Express" />
+            <Tag title="Node" />
+          </Section>
+          <Button title="Voltar" />
+        </Content>
+      </main>
     </Container>
   );
 }
