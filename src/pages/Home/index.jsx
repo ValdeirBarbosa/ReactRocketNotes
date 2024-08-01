@@ -1,6 +1,8 @@
 import { Container, Brand, Menu, Search, Content, NewNote } from "./styles";
 import { Header } from "../../componets/Header";
 import {ButtonText} from "../../componets/ButtonText"
+import {Section} from "../../componets/Section"
+import {Note} from "../../componets/Note"
 import {FiPlus, FiSearch} from 'react-icons/fi'
 import { Input } from "../../componets/Input";
 export function Home() {
@@ -23,6 +25,23 @@ export function Home() {
 
       </Search>
       <Content>
+        <Section title="<Minhas Notas/>">
+          <Note data={{
+            title:"ReactJS", 
+            tags:[
+              {id:'1', name:"React"},
+              {id:'2', name:"Rocketseat"},
+            ]
+            }}/>
+          <Note data={{
+            title:"Exemplo de Middleware", 
+            tags:[
+              {id:'1', name:"Express"},
+              {id:'2', name:"Axios"},
+            ]
+            }}/>
+
+        </Section>
 
       </Content>
       <NewNote>
