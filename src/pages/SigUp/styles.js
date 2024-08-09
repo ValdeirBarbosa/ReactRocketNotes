@@ -24,7 +24,6 @@ align-items: center;
 }
 >h2{
     font-size: 24px;
-    margin-top:84px;
     margin:48px 0;
     
 };
